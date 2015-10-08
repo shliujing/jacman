@@ -1,8 +1,8 @@
 ##### Menu
 menu:
-  Home: /
-  Archives: /archives
-  About: /about
+  主页: /
+  归档: /archives
+  关于我: /about
 ## you can create `tags` and `categories` folders in `../source`.
 ## And create a `index.md` file in each of them.
 ## set `front-matter`as
@@ -21,8 +21,6 @@ widgets:
 - weibo
   ## provide eight widgets:github-card,category,tag,rss,archive,tagcloud,links,weibo
 
-
-
 #### RSS 
 rss: /atom.xml ## RSS address.
 
@@ -36,7 +34,7 @@ author_img: img/author.jpg ## size:220px*220px.display author avatar picture.if 
 banner_img: #img/banner.jpg ## size:1920px*200px+. Banner Picture
 ### Theme Color 
 theme_color:
-    theme: '#2ca6cb'    ##the defaut theme color is blue
+    theme: '#ea6753'    ##the defaut theme color is blue
 
 # 代码高亮主题
 # available: default | night
@@ -47,8 +45,8 @@ index:
   expand: true           ## default is unexpanding,so you can only see the short description of each post.
   excerpt_link: Read More  
 
-close_aside: false  #close sidebar in post page if true
-mathjax: false      #enable mathjax if true
+close_aside: true  #close sidebar in post page if true 看帖子时隐藏
+mathjax: true      #enable mathjax if true
 
 ### Creative Commons License Support, see http://creativecommons.org/ 
 ### you can choose: by , by-nc , by-nc-nd , by-nc-sa , by-nd , by-sa , zero
@@ -56,20 +54,20 @@ creative_commons: none
 
 #### Author information
 author:
-  intro_line1:  "Hello ,I'm Larry Page in Google."    ## your introduction on the bottom of the page
-  intro_line2:  "This is my blog,believe it or not."  ## the 2nd line
-  weibo: 2176287895     ## e.g. wuchong1014 or 2176287895 for http://weibo.com/2176287895
-  weibo_verifier: b3593ceb    ## e.g. b3593ceb Your weibo-show widget verifier ,if you use weibo-show it is needed.
-  tsina:      ## e.g. 2176287895  Your weibo ID,It will be used in share button.
+  intro_line1: "Hi,I'm Liu Jing,It's my blog,web home." ## eg: "Hello ,I'm Larry Page in Google."
+  intro_line2: "In Here,I'd would like to share with you at this blog." ## eg: "This is my blog,believe it or not."
+  weibo: cnliujing     ## e.g. wuchong1014 or 2176287895 for http://weibo.com/2176287895
+  weibo_verifier: 660d5795    ## e.g. b3593ceb Your weibo-show widget verifier ,if you use weibo-show it is needed. 微博秀的验证码
+  tsina: cnliujing     ## e.g. 2176287895  Your weibo ID,It will be used in share button.,uid=5718691796,不知道用哪个现在
   douban:     ## e.g. wuchong1014 or your id for https://www.douban.com/people/wuchong1014
-  zhihu:      ## e.g. jark  for http://www.zhihu.com/people/jark
-  email:      ## e.g. imjark@gmail.com
+  zhihu: shliujing     ## e.g. jark  for http://www.zhihu.com/people/jark
+  email: wkliujing@foxmail.com     ## e.g. imjark@gmail.com
   twitter:    ## e.g. jarkwu for https://twitter.com/jarkwu
-  github:     ## e.g. wuchong for https://github.com/wuchong
-  facebook:   ## e.g. imjark for https://facebook.com/imjark
-  linkedin:   ## e.g. wuchong1014 for https://www.linkedin.com/in/wuchong1014
+  github: shliujing    ## e.g. wuchong for https://github.com/wuchong
+  facebook: shliujing  ## e.g. imjark for https://facebook.com/imjark
+  linkedin: shliujing  ## e.g. wuchong1014 for https://www.linkedin.com/in/wuchong1014
   google_plus:    ## e.g. "111190881341800841449" for https://plus.google.com/u/0/111190881341800841449, the "" is needed!
-  stackoverflow:  ## e.g. 3222790 for http://stackoverflow.com/users/3222790/jark
+  stackoverflow: shliujing ## e.g. 3222790 for http://stackoverflow.com/users/3222790/jark
 ## if you set them, the corresponding  share button will show on the footer
 
 #### Toc
@@ -81,31 +79,28 @@ toc:
 
 #### Links
 links:
-  码农圈: https://coderq.com,一个面向程序员交流分享的新一代社区
-  Jark's Blog: http://wuchong.me
-
-
+  知乎: https://zhihu.com
 
 #### Comment
-duoshuo_shortname:    ## e.g. wuchong   your duoshuo short name.
+duoshuo_shortname: wkliujing    ## e.g. wuchong   your duoshuo short name.
 disqus_shortname:     ## e.g. wuchong   your disqus short name.
 
 #### Share button
 jiathis:
-  enable: false ## if you use jiathis as your share tool,the built-in share tool won't be display.
-  id:    ## e.g. 1889330 your jiathis ID. 
-  tsina: ## e.g. 2176287895 Your weibo id,It will be used in share button.
+  enable: true ## if you use jiathis as your share tool,the built-in share tool won't be display.
+  id: 2063471   ## e.g. 1501277 your jiathis ID. 
+  tsina: cnliujing  ## e.g. 1664838973 Your weibo id,It will be used in share button.
 
 #### Analytics
 google_analytics:
-  enable: false
-  id:        ## e.g. UA-46321946-2 your google analytics ID.
-  site:      ## e.g. wuchong.me your google analytics site or set the value as auto.
+  enable: true
+  id: UA-68500175-1    ## e.g. UA-1766729-8 your google analytics ID.
+  site: www.aimlj.com  ## e.g. yangjian.me your google analytics site or set the value as auto.
 ## You MUST upgrade to Universal Analytics first!
 ## https://developers.google.com/analytics/devguides/collection/upgrade/?hl=zh_CN
 baidu_tongji:
   enable: true
-  sitecode: e6d1f421bbc9962127a50488f9ed37d1 ## e.g. e6d1f421bbc9962127a50488f9ed37d1 your baidu tongji site code
+  sitecode: 6d42a4beda98d0ebc19c84dc725e1424 ## e.g. e6d1f421bbc9962127a50488f9ed37d1 your baidu tongji site code
 cnzz_tongji:
   enable: false
   siteid:    ## e.g. 1253575964 your cnzz tongji site id
@@ -127,8 +122,8 @@ google_cse:
 ## title: search
 ## ---
 baidu_search:     ## http://zn.baidu.com/
-  enable: false
-  id:   ## e.g. "783281470518440642"  for your baidu search id
+  enable: true
+  id: 14762287225955482424  ## e.g. "783281470518440642"  for your baidu search id
   site: http://zhannei.baidu.com/cse/search  ## your can change to your site instead of the default site
   
 tinysou_search:     ## http://tinysou.com/
