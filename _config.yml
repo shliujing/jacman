@@ -1,6 +1,6 @@
 ##### Menu
 menu:
-  主页: /
+  博客: /
   归档: /archives
   关于我: /about
 ## you can create `tags` and `categories` folders in `../source`.
@@ -18,7 +18,7 @@ widgets:
 - links
 - douban
 - rss
-- weibo
+## - weibo
   ## provide eight widgets:github-card,category,tag,rss,archive,tagcloud,links,weibo
 
 #### RSS 
@@ -42,11 +42,8 @@ highlight_theme: default
 
 #### index post is expanding or not 
 index:
-  expand: true           ## default is unexpanding,so you can only see the short description of each post.
+  expand: false           ## default is unexpanding,so you can only see the short description of each post.这个展开的话，很丑
   excerpt_link: Read More  
-
-close_aside: true  #close sidebar in post page if true 看帖子时隐藏
-mathjax: true      #enable mathjax if true
 
 ### Creative Commons License Support, see http://creativecommons.org/ 
 ### you can choose: by , by-nc , by-nc-nd , by-nc-sa , by-nd , by-sa , zero
@@ -72,7 +69,7 @@ author:
 
 #### Toc
 toc:
-  article: true   ## show contents in article.
+  article: false   ## show contents in article.
   aside: true     ## show contents in aside.
 ## you can set both of the value to true of neither of them.
 ## if you don't want display contents in a specified post,you can modify `front-matter` and add `toc: false`.
@@ -109,7 +106,6 @@ cnzz_tongji:
 ShowCustomFont: true  ## you can change custom font in `variable.styl` and `font.styl` which in the theme folder `/jacman/source/css`.
 fancybox: true        ## if you use gallery post or want use fancybox please set the value to true.
 totop: true           ## if you want to scroll to top in every post set the value to true
-
 
 #### Custom Search
 google_cse: 
