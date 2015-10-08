@@ -12,7 +12,7 @@ menu:
 
 #### Widgets
 widgets: 
-##- github-card
+## - github-card
 - category
 - tag
 - links
@@ -42,7 +42,7 @@ highlight_theme: default
 
 #### index post is expanding or not 
 index:
-  expand: false           ## default is unexpanding,so you can only see the short description of each post.这个展开的话，很丑
+  expand: false           ## default is unexpanding,so you can only see the short description of each post. 首页文章展开，这个展开的话，很丑
   excerpt_link: Read More  
 
 ### Creative Commons License Support, see http://creativecommons.org/ 
