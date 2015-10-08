@@ -58,7 +58,7 @@ author:
   intro_line2: "In Here,I'd would like to share with you at this blog." ## eg: "This is my blog,believe it or not."
   weibo: cnliujing     ## e.g. wuchong1014 or 2176287895 for http://weibo.com/2176287895
   weibo_verifier: 660d5795    ## e.g. b3593ceb Your weibo-show widget verifier ,if you use weibo-show it is needed. 微博秀的验证码
-  tsina: cnliujing     ## e.g. 2176287895  Your weibo ID,It will be used in share button.,uid=5718691796,不知道用哪个现在
+  tsina: 5718691796     ## e.g. 2176287895  Your weibo ID,It will be used in share button.,uid=5718691796,不知道用哪个现在
   douban:     ## e.g. wuchong1014 or your id for https://www.douban.com/people/wuchong1014
   zhihu: shliujing     ## e.g. jark  for http://www.zhihu.com/people/jark
   email: wkliujing@foxmail.com     ## e.g. imjark@gmail.com
@@ -89,7 +89,7 @@ disqus_shortname:     ## e.g. wuchong   your disqus short name.
 jiathis:
   enable: true ## if you use jiathis as your share tool,the built-in share tool won't be display.
   id: 2063471   ## e.g. 1501277 your jiathis ID. 
-  tsina: cnliujing  ## e.g. 1664838973 Your weibo id,It will be used in share button.
+  tsina: 5718691796  ## e.g. 1664838973 Your weibo id,It will be used in share button.
 
 #### Analytics
 google_analytics:
