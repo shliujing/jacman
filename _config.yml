@@ -5,12 +5,12 @@ menu:
   关于我: /about
 ## you can create `tags` and `categories` folders in `../source`.
 ## And create a `index.md` file in each of them.
-## set `front-matter`as
+## set `front-matter`as1
 ## layout: tags (or categories)
 ## title: tags (or categories)
 ## ---
 
-#### Widgets
+#### Widgets  
 widgets: 
 ## - github-card
 - category
@@ -34,7 +34,7 @@ author_img: img/author.jpg ## size:220px*220px.display author avatar picture.if 
 banner_img: #img/banner.jpg ## size:1920px*200px+. Banner Picture
 ### Theme Color 
 theme_color:
-    theme: '#ea6753'    ##the defaut theme color is blue
+    theme: '#148EEB'    ##the defaut theme color is blue
 
 # 代码高亮主题
 # available: default | night
@@ -52,14 +52,14 @@ creative_commons: none
 #### Author information
 author:
   intro_line1: "Hi,I'm Liu Jing,It's my blog,web home." ## eg: "Hello ,I'm Larry Page in Google."
-  intro_line2: "In Here,I'd would like to share with you at this blog." ## eg: "This is my blog,believe it or not."
+  intro_line2: "I'd would like to share with you at this blog." ## eg: "This is my blog,believe it or not."
   weibo: cnliujing     ## e.g. wuchong1014 or 2176287895 for http://weibo.com/2176287895
   weibo_verifier: 660d5795    ## e.g. b3593ceb Your weibo-show widget verifier ,if you use weibo-show it is needed. 微博秀的验证码
   tsina: 5718691796     ## e.g. 2176287895  Your weibo ID,It will be used in share button.,uid=5718691796,不知道用哪个现在
-  douban:     ## e.g. wuchong1014 or your id for https://www.douban.com/people/wuchong1014
+  douban:     ## e.g. 1wuchong1014 or your id for https://www.douban.com/people/wuchong1014   shliujing，先不放，放了就歪了。应该是BUG  
   zhihu: shliujing     ## e.g. jark  for http://www.zhihu.com/people/jark
   email: wkliujing@foxmail.com     ## e.g. imjark@gmail.com
-  twitter:    ## e.g. jarkwu for https://twitter.com/jarkwu
+  twitter: shliujing   ## e.g. jarkwu for https://twitter.com/jarkwu
   github: shliujing    ## e.g. wuchong for https://github.com/wuchong
   facebook: shliujing  ## e.g. imjark for https://facebook.com/imjark
   linkedin: shliujing  ## e.g. wuchong1014 for https://www.linkedin.com/in/wuchong1014
@@ -69,6 +69,7 @@ author:
 
 #### Toc
 toc:
+  article: false   ## show contents in article.
   article: false   ## show contents in article.
   aside: true     ## show contents in aside.
 ## you can set both of the value to true of neither of them.
@@ -80,7 +81,7 @@ links:
 
 #### Comment
 duoshuo_shortname: shliujing    ## e.g. wuchong   your duoshuo short name.
-disqus_shortname:     ## e.g. wuchong   your disqus short name.
+disqus_shortname:     ## e.g. wuchong   your disqus short name.  先不放，iamlj
 
 #### Share button
 jiathis:
